@@ -3,13 +3,31 @@
 >> Question1: How to remove branches locally and remotely? 
 
 ```bash
--> Locally: git branch -d dev 
--> Remotely: git push origin :dev
+
+# Locally:
+ git branch -d dev 
+
+# Remotely:
+ git push origin :dev
 
 Question2: How to checkout another branch without commit changes? 
 
--> git stash
+git stash
 
-Question3: How to checkout another branch without commit changes? 
+Question3: How to list tags? 
 
--> git stash
+git tag
+
+Question3: How to delete tag locally and remotely?
+
+# Locally: 
+git tag -d V1.7
+
+# Remotely:
+git push origin :V1.7
+git push origin --delete V1.7
+
+![Welcome](https://images.app.goo.gl/merWNkc5x6feN62W7)
+
+
+
