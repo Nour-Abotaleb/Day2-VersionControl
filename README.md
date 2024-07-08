@@ -27,7 +27,7 @@ git tag -d V1.7
 git push origin :V1.7
 git push origin --delete V1.7
 
-![Welcome](https://images.app.goo.gl/merWNkc5x6feN62W7)
+![welcome](https://github.com/[Nour-Abotaleb]/[Day2-VersionControl]/blob/[master]/welcome.jpg?raw=true)
 
 
 
